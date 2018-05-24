@@ -1,0 +1,100 @@
+html{
+  height:100%;
+  background-image: url("https://images.pexels.com/photos/699466/pexels-photo-699466.jpeg?auto=compress&cs=tinysrgb&h=350");
+  background-size:cover;
+}
+
+#banner{
+  padding-top:22%;
+  font-family:'Pacifico', cursive;;
+  font-size:35px;
+  display:flex;
+  justify-content:center;
+  color: #E0EDFF;
+}
+
+#heading{
+  height:100%;
+  font-family:'Alegreya', serif;
+  display:flex;
+  justify-content:space-around;
+  color:#02fb45;
+  opacity:0.5;
+}
+
+#heading:hover{
+  opacity:1;
+  
+}
+
+.navbar {
+  display:flex;
+  justify-content:space-around;
+  background-color:white;
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  
+}
+
+.navbar a {
+  float:left;
+  display:block;
+  text-align:center;
+  padding:14px 16px;
+  text-decoration:none;
+  color:#9370DB;
+  font-family:'Great Vibes', cursive;
+}
+
+.navbar a:hover {
+  color:white;
+  background:#9370DB;
+}
+.my-picture:hover{
+   -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+#about-content{
+  display:flex;
+  justify-content:space-around;
+  margin-top:22%;
+}
+
+img{
+  border-radius:50%;
+  border:solid 5px #9370DB;
+  width: 80%;
+}
+
+.my-description{
+  background:white;
+  margin:3%;
+  padding:4%;
+  font-family:'Alegreya', serif;
+}
+
+.project-container{
+  margin-top:20%;
+  display:flex;
+  width:100%;
+  height:100%;
+  justify-content:space-between;
+}
+
+span{
+  background:#9370DB;
+  width:30%;
+  height:60%;
+  margin:2%;
+  padding:2%;
+  font-family:Lobster;
+  color:white;
+  align-items:center;
+}
+.foods:hover{
+  border-radius:0%;
+}
+
